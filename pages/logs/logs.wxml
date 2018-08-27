@@ -1,6 +1,35 @@
 <!--logs.wxml-->
-<view class="container log-list">
-  <block wx:for="{{logs}}" wx:for-item="log">
-    <text class="log-item">{{index + 1}}. {{log}}</text>
-  </block>
+<view class='main'>
+  <view class='code_container'>
+    <view class='img_container'>
+      <image src='/source/img/Bitmap1.png' mode='widthFix' class=''code_image>
+      </image>
+      <text class='code_top'>编程</text>
+      <text class='code_top_two'>你写代码</text>
+      <text class='code_top_three'>有写诗的感觉吗？</text>
+      <text class='code_btm'>Talk is cheap, show me your code.</text>
+      <text class='code_btm_two'>-- Linus</text>  
+    </view>   
+  </view>
+  <view class='physic_container'>
+    <view class='img_container'>
+      <image src='/source/img/Bitmap3.png' mode='widthFix' class=''code_image>
+      </image>
+      <image src='/source/img/hung.png' class='imgicon' mode='widthFix'></image>
+      <text class='code_top_three'>流汗</text>
+      <text class='code_top_four'>不留肉</text>
+      <text class='code_btm'>燃烧你的卡路里。</text>
+      <view class='code_btm_two'>>>></view> 
+    </view>   
+  </view>
+  <view class='photo_container'>
+    <view class='img_container'>
+      <image src='/source/img/Bitmap2.png' mode='widthFix' class=''code_image>
+      </image>
+      <text class='code_top'>拍摄</text>
+      <text class='code_top_two'>连续90天里</text>
+      <text class='code_top_three'>21点的月亮有何不同？</text>
+      <text class='code_btm'>Your first 10000 photographs are your worst.</text>
+    </view>   
+  </view>
 </view>
